@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/api/create', (req, res)=>{
-    
+    res.send("Create Short URL");
 });
 
 app.listen(3000, () => {
